@@ -18,9 +18,7 @@ git commit -m "<Comentario>"
 git log
 git diff xxxxx..xxxxx
 git diff HEAD~1..HEAD
-git diff HEAD~1..
-´´´
-
+git diff HEAD~1..```
 > Diff
 ```
 touch file1.txt file2.txt
