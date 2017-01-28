@@ -1,12 +1,7 @@
-# Git-Introduction
-Introduccón a Git
-| Nombre        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| Repositorio Local      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+## Introdución a Git
 
+#Contenido
 
 Nro | Nombre |
 --- | --- |
-*1* |  [Repositorio Local](https://www.google.com)
+*1* |  [Repositorio Local](https://github.com/GermanKuber/Git-Introduction/blob/master/1%20-%20Repositorio%20Local.md)
