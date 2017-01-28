@@ -7,7 +7,7 @@ Introduccón a Git
 | zebra stripes | are neat      |    $1 |
 
 
-Markdown | Less | Pretty
+Nro | Nombre | Link
 --- | --- | ---
 *Still* | `renders` | **nicely**
 1 | 2 | 3
