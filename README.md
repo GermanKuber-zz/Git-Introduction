@@ -92,3 +92,9 @@ git status
 git add .
 git commit -m "Se agrega .gitignore"
 git log
+
+```
+git status
+git add
+git commit
+```
