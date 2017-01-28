@@ -19,6 +19,10 @@ git log
 git diff xxxxx..xxxxx
 git diff HEAD~1..HEAD
 git diff HEAD~1..
+´´´
+
+> Diff
+```
 touch file1.txt file2.txt
 git status
 git add -u
@@ -29,6 +33,11 @@ git diff HEAD~1
 vim file1.txt 
 vim Readme.txt
 git status
+```
+
+>Last
+
+```
 git add file1.txt
 git status
 git commit -m "Primer archivo"
@@ -66,5 +75,6 @@ vim .gitignore
 git status
 git add .
 git commit -m "Se agrega .gitignore"
-git log´´´
+git log
 git add .
+```
