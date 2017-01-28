@@ -1,6 +1,6 @@
-## Introdución a Git
+# Introdución a Git
 
-#Contenido
+##Contenido
 
 Nro | Nombre |
 --- | --- |
