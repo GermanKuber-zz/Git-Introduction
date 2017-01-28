@@ -2,9 +2,8 @@
 Introduccón a Git
 
 >git init
-
 > echo "Hello Git" >> Readme.txt
-
+´´´
 git status . 
 
 git add Readme.txt
