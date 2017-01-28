@@ -7,7 +7,6 @@ Introduccón a Git
 | zebra stripes | are neat      |    $1 |
 
 
-Nro | Nombre | Link
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+Nro | Nombre |
+--- | --- |
+*1* |  [Repositorio Local](https://www.google.com)
