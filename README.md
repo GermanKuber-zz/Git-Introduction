@@ -1,12 +1,12 @@
 # Git-Introduction
 Introduccón a Git
 
-git init
-echo "Hello Git" >> Readme.txt
-git status
-git add Readme.txt
-git status
-git commit
+git init__
+echo "Hello Git" >> Readme.txt__
+git status__
+git add Readme.txt__
+git status__
+git commit__
 git log
 vim Readme.txt
 git status
