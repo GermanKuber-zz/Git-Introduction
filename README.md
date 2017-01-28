@@ -1,9 +1,9 @@
 # Git-Introduction
 Introduccón a Git
 
-git init
+>git init
 
-echo "Hello Git" >> Readme.txt
+> echo "Hello Git" >> Readme.txt
 
 git status . 
 
