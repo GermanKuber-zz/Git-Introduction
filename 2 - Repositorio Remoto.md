@@ -1,6 +1,7 @@
 #Trabajando con repositorio remoto
 
 > Repositorio Remoto
+
 ```
 git clone https://github.com/dotnet/core.git
 git log --oneline
@@ -19,6 +20,7 @@ git tag
 ```
 
 > Merge - Tags
+
 ```
 git branch -r
 git remote -v
