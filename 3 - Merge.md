@@ -1,11 +1,11 @@
 #Merge
 
 > Repositorio Remoto
+
 ```
 git log --graph --oneline --all --decorate
 git config --global alias.lga "log --graph --oneline --all --decorate"
 cat ~/.gitconfig
-
 git branch feature1
 git checkout feature1
 git lga
@@ -31,6 +31,7 @@ git lga
 ```
 
 > Commits eliminados
+
 ```
 git reflog
 git branch bug1234 <commit id bug1234>
@@ -39,6 +40,7 @@ git show HEAD
 ```
 
 > Stashing
+
 ```
 git checkout feature2
 echo "Feature 2 changes" >> Readme.txt
