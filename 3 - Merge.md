@@ -63,6 +63,7 @@ echo "Nuevo file" >> Readme.txt
 ```
 
 > Merge
+
 ```
 git checkout master
 git lga
@@ -73,4 +74,19 @@ git mergefeature
 git diff --cached
 git commit -m "Merge de Feature 2 con Master"
 rm Readme.txt.orig
+```
+
+
+> Merge
+
+```
+git branch feature3 v1.0_With_Comments
+git checkot feature3
+echo "Feature 3 Agregada" >> file1.txt
+git show feature3
+git commit -am "Nueva fuature 3"
+git lga
+git rebase master
+git checkout master
+git merge master
 ```
