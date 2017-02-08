@@ -21,6 +21,7 @@ git diff HEAD~1..
 ```
 
 > Diff
+
 ```
 touch file1.txt file2.txt
 git status

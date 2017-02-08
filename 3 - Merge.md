@@ -124,3 +124,13 @@ git branch -r
 git push origin v1.0_fixes:remote_v1.0_fixes
 git push origin :remote_v1.0_fixes
 ```
+
+
+> Alias
+
+```
+git config --global alias.st "status --short --branch"
+git config --global alias.qm '!git checkout $1; git merge @{-1}'
+git config --global alias.cma '!git add . ;git commit -m'
+```
+
