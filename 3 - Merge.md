@@ -81,7 +81,7 @@ rm Readme.txt.orig
 
 ```
 git branch feature3 v1.0_With_Comments
-git checkot feature3
+git checkot feature3 
 echo "Feature 3 Agregada" >> file1.txt
 git show feature3
 git commit -am "Nueva fuature 3"
@@ -89,4 +89,38 @@ git lga
 git rebase master
 git checkout master
 git merge master
+git checkout bug12342
+git rebase master
+vim Readme.txt
+git mergetool
+git status
+git diff --cached
+git rebase --continue
+git lga
+git status
+rm Readme.txt.orig
+git lga
+git checkout master
+git merge bug1234
+git branch -d feature3
+```
+
+> Cherry
+
+```
+git branch v1.0_fixes v1.0_With_Comments
+git checkout v1.0_fixes
+echo "New Fixes" >> file1.txt
+git commit -am "Nuevos cambios"
+echo "New Fixes 2" >> file2.txt
+git commit -am "Nuevos cambios 2"
+git checkout master
+git lga
+git cherry-pick <id commit>
+git merge v1.0_fixes
+git push
+git push v1.0_fixes
+git branch -r
+git push origin v1.0_fixes:remote_v1.0_fixes
+git push origin :remote_v1.0_fixes
 ```
