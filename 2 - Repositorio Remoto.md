@@ -24,7 +24,7 @@ git tag
 ```
 git branch -r
 git remote -v
-git rtemote add origin <url remote>
+git remote add origin <url remote>
 git fetch
 git log origin/master
 git merge origin/master
