@@ -53,7 +53,7 @@ git commit -m "Se mueven archivos"
 vim Readme.txt
 git status
 git checkout Readme.txt
-car Readme.txt
+cat Readme.txt
 vim Readme.txt
 rm new_file_name.txt
 git status
