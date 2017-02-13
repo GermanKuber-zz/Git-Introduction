@@ -35,7 +35,7 @@ vim Readme.txt
 git status
 ```
 
->Last
+> Last
 
 ```
 git add file1.txt
@@ -55,6 +55,11 @@ git status
 git checkout Readme.txt
 cat Readme.txt
 vim Readme.txt
+```
+
+> Clean
+
+```
 rm new_file_name.txt
 git status
 git reset --hard
@@ -78,4 +83,5 @@ git add .
 git commit -m "Se agrega .gitignore"
 git log
 git add .
+git log --name-only --oneline
 ```
