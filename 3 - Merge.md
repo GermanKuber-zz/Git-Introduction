@@ -77,7 +77,7 @@ rm Readme.txt.orig
 ```
 
 
-> Merge
+> Rebase
 
 ```
 git branch feature3 v1.0_With_Comments
