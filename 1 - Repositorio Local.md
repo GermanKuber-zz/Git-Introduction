@@ -14,15 +14,15 @@ vim Readme.txt
 git status
 git add -u
 git commit -m "<Comentario>"
-git log
-git diff xxxxx..xxxxx
-git diff HEAD~1..HEAD
-git diff HEAD~1..
 ```
 
 > Diff
 
 ```
+git log
+git diff xxxxx..xxxxx
+git diff HEAD~1..HEAD
+git diff HEAD~1..
 touch file1.txt file2.txt
 git status
 git add -u
