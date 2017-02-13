@@ -72,6 +72,7 @@ mkdir log
 touch log/log.txt
 git status
 vim .gitignore
+  "log/*"
 git status
 git add .
 git commit -m "Se agrega .gitignore"
